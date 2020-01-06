@@ -1,0 +1,61 @@
+.card-view-only {
+    resize: none;
+}
+
+.no-cards-msg {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20% 0;
+}
+
+.test-panel-card {
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 0;
+    margin: auto;
+    margin-top: 5rem;
+    height: 40rem;
+    width: 70%;
+    background-color: var(--outline1);
+    padding-bottom: 10rem;
+
+}
+
+.test-panel-card h2 {
+    margin-right: 60rem;
+    font-size: 2.2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.test-panel-card textarea {
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    cursor: default;
+    border: none;
+    padding: 4rem 2rem;
+    border-radius: 1%;
+}
+
+
+.nav-buttons {
+    padding: 4rem 0 0 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly; 
+
+}
+
+.prev-card, .flip, .next-card {
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.prev-card:hover, .next-card:hover {
+    font-size: 1.7rem;
+}
+
+.flip p {
+    font-size: 1.3rem;
+}

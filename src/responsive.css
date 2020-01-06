@@ -1,0 +1,139 @@
+
+@media only screen and (max-width:970px) { /*'only' used to hide query from older browsers */
+    main {
+        position: relative;
+        display: inline-block;
+        margin: auto;
+        left: 0;
+        padding: 5rem;
+        padding-top: 0;
+        width: 100%;
+    }
+   
+    div.test-panel-card {
+        margin-top: 2rem;
+    }
+
+    .sidebar {
+        position: sticky;
+        display: relative;
+        height: 10rem;
+        width: 100%;
+    }
+
+    .sidebar-list {
+        position: static;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        width: 80%;
+        margin-top: 0;
+        margin: 0 2rem;
+        background-color: var(--outline1);
+        overflow: scroll;
+    }
+
+    .card-panel h4 {
+        display: none;
+    }
+
+    .card-panel {
+        padding: 0rem;
+    }
+
+    .sidebar-title {
+        display: none;
+    }
+
+    .folder {
+        padding: 1rem;
+        height: 5rem;
+        border: 2px solid var(--outline1);
+    }
+
+    .new-folder-btn {
+        top: -9rem;
+        left: 4%;
+    }
+
+    h2.sidebar-title {
+        margin-top: 0rem;
+        margin-left: 5rem;
+    }
+
+    main .welcome-panel {
+        padding-top: 5rem;
+    }
+
+    .save-btn p {
+        display: none;
+    }
+
+    .legend :first-child {
+        margin-left: 4rem;
+    }
+
+    .new-folder-creation input[type="text"] {
+        max-width: 8rem;
+        height: 5rem;
+    }
+
+    .new-folder-msg {
+        font-size: 1rem;
+        position: absolute;
+        margin-top: 0;
+        padding-left: .5rem;
+        
+    }
+}
+
+@media only screen and (max-width:600px) { 
+    main {
+        padding: 2rem;
+        padding-top: 0;
+    }
+
+    .legend h4 {
+        display: none;
+    }
+
+    .card-panel {
+        grid-template-rows: 1fr 4fr 1fr 4fr 1fr;
+    }
+
+    .card-panel .side-a {
+        grid-row: 2/3;
+    }
+
+    .card-panel .side-b {
+        grid-row: 4/5
+    }
+
+    .card-panel .card-side {
+        grid-column: 2/9;
+    }
+
+    .card-options {
+        margin-left: 1.5rem;
+        grid-column: 9/11;
+    }
+
+    .delete-btn {
+        top: 0;
+        left: 2.5rem;
+    }
+
+    .sidebar {
+        height: 15rem;
+    }
+
+    .test-panel-card {
+        margin: auto;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .nav-buttons {
+        padding-top: 2rem;
+    }
+}

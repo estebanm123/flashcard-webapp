@@ -1,0 +1,37 @@
+main {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 2fr 12fr 1fr;
+    width: 80vw;
+    left: 15rem;
+    margin: 0rem 0  2rem 0rem;
+    padding-top: 3rem;
+    margin: auto;
+    height: 97vh;
+}
+
+
+main .welcome-panel {
+    text-align: center;
+    padding-top: 20rem;
+    font-size: 2rem;
+}
+
+.welcome-panel h1 {
+    margin-bottom: 3rem;
+}
+
+.view-edit-panel, .test-panel, .welcome-panel {
+    width: 100%;
+    padding-top: 1.5rem;
+    grid-column: 2 / 3;
+}
+
+.view-edit-panel h1, .test-panel h1 {
+    font-size: 3rem;
+}
+
+.test-panel {
+    height: 100%;
+}
+
